@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695792861
-AsteroidCreator.gd::GDScript::-1::1695790774::0::1::::<>Node2D<>::
+::res://::1695798623
+AsteroidCreator.gd::GDScript::-1::1695797908::0::1::::<>Node2D<>::
 icon.svg::CompressedTexture2D::2780779437310120565::1695783881::1695783881::1::::<><>::
 LaserLevelOne.gd::GDScript::-1::1695783880::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1695783880::0::1::::<><>::
-::res://art/::1695792861
+::res://art/::1695792863
 sonisgo.PNG::CompressedTexture2D::5077670985058913741::1695792855::1695792863::1::::<><>::
 ::res://art/Space Shooter Extension/::1695783881
 License.txt::TextFile::-1::1695783880::0::1::::<><>::
@@ -911,21 +911,22 @@ sheet.png::CompressedTexture2D::4515884477106698577::1695783881::1695783881::1::
 ::res://art/Space Shooter Redux/Vector/::1695783881
 spaceShooter_vector.svg::CompressedTexture2D::5024311977904957073::1695783881::1695783881::1::::<><>::
 ::res://scenes/::1695789246
-::res://scenes/characters/::1695792861
-asteroid.gd::GDScript::-1::1695786405::0::1::::<>CharacterBody2D<>::
-asteroid.tscn::PackedScene::5341665776118979624::1695791121::0::1::::<><>::res://scenes/characters/asteroid.gd<>uid://hrd5vo23s7ml::::res://art/Space Shooter Redux/PNG/Meteors/meteorBrown_big1.png
-character_body_2d.gd::GDScript::-1::1695789247::0::1::::<>CharacterBody2D<>::
-character_body_2d.tscn::PackedScene::1831016263092940962::1695792721::0::1::::<><>::res://scenes/characters/character_body_2d.gd<>uid://bpi7xlg28nb6g::::res://art/Space Shooter Redux/PNG/playerShip1_red.png
-::res://scenes/levels/::1695792720
+::res://scenes/characters/::1695797960
+asteroid.gd::GDScript::-1::1695797767::0::1::::<>CharacterBody2D<>::
+asteroid.tscn::PackedScene::5341665776118979624::1695797960::0::1::::<><>::res://scenes/characters/asteroid.gd<>uid://hrd5vo23s7ml::::res://art/Space Shooter Redux/PNG/Meteors/meteorBrown_big1.png
+character_body_2d.gd::GDScript::-1::1695796933::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::1831016263092940962::1695797960::0::1::::<><>::res://scenes/characters/character_body_2d.gd<>uid://bpi7xlg28nb6g::::res://art/Space Shooter Redux/PNG/playerShip1_red.png
+::res://scenes/levels/::1695797960
+game_over.tscn::PackedScene::5651418514217451907::1695793171::0::1::::<><>::uid://celwq8fglrxfp::::res://art/sonisgo.PNG
 level.gd::GDScript::-1::1695783881::0::1::::<>Node2D<>::
-level.tscn::PackedScene::3120704613954665840::1695792720::0::1::::<><>::res://scenes/levels/level.gd<>uid://1c7tnktvilhy::::res://scenes/characters/character_body_2d.tscn<>uid://ci8vulcowvcil::::res://scenes/objects/space_station.tscn<>uid://00dpb8boqu0l::::res://scenes/mechanics/asteroid_creator.tscn<>uid://cidspp4uwhfjk::::res://scenes/characters/asteroid.tscn
+level.tscn::PackedScene::3120704613954665840::1695797960::0::1::::<><>::res://scenes/levels/level.gd<>uid://1c7tnktvilhy::::res://scenes/characters/character_body_2d.tscn<>uid://ci8vulcowvcil::::res://scenes/objects/space_station.tscn<>uid://00dpb8boqu0l::::res://scenes/mechanics/asteroid_creator.tscn<>uid://cidspp4uwhfjk::::res://scenes/characters/asteroid.tscn
 SpaceStation.gd::GDScript::-1::1695783881::0::1::::<>StaticBody2D<>::
 ::res://scenes/mechanics/::1695791181
 asteroid_creator.tscn::PackedScene::1806539576255869677::1695791181::0::1::::<><>::res://AsteroidCreator.gd
-::res://scenes/objects/::1695792721
-space_station.gd::GDScript::-1::1695792221::0::1::::<>StaticBody2D<>::
-space_station.tscn::PackedScene::5403787936613411179::1695792721::0::1::::<><>::res://scenes/objects/space_station.gd<>uid://bj4j03aususki::::res://art/Space Shooter Extension/PNG/Sprites/Station/spaceStation_021.png
-::res://scenes/weapons/::1695791121
-laser_level_one.tscn::PackedScene::5732525559491217065::1695791121::0::1::::<><>::res://LaserLevelOne.gd<>uid://buoigew6uca2p::::res://art/Space Shooter Redux/PNG/Lasers/laserBlue01.png
+::res://scenes/objects/::1695797960
+space_station.gd::GDScript::-1::1695797213::0::1::::<>StaticBody2D<>::
+space_station.tscn::PackedScene::5403787936613411179::1695797960::0::1::::<><>::res://scenes/objects/space_station.gd<>uid://bj4j03aususki::::res://art/Space Shooter Extension/PNG/Sprites/Station/spaceStation_021.png
+::res://scenes/weapons/::1695797960
+laser_level_one.tscn::PackedScene::5732525559491217065::1695797960::0::1::::<><>::res://LaserLevelOne.gd<>uid://buoigew6uca2p::::res://art/Space Shooter Redux/PNG/Lasers/laserBlue01.png
 rocket_level_one.gd::GDScript::-1::1695783881::0::1::::<>RigidBody2D<>::
 rocket_level_one.tscn::PackedScene::437764302448728465::1695791121::0::1::::<><>::uid://dmy3kv7o2xo14::::res://art/Space Shooter Extension/PNG/Sprites/Missiles/spaceMissiles_001.png<>res://scenes/weapons/rocket_level_one.gd

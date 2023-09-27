@@ -13,9 +13,9 @@ func _process(_delta):
 	print(asteroid_health)
 
 #	if(asteroid_health <= 0):
-#		$"../AsteroidCreator".die()
+#		$"../AsteroidCreator".destroy_asteroid(asteroid_to_destroy)
 
-func _on_area_2d_area_entered(area):
+func _on_area_2d_area_entered(_area):
 #	print("ateroid hit")
 	asteroid_health -= 1
 	
