@@ -1,21 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkpxswx54klqe"]
+[gd_scene load_steps=6 format=3 uid="uid://bkpxswx54klqe"]
 
 [ext_resource type="Script" path="res://scenes/levels/level.gd" id="1_rgs4n"]
 [ext_resource type="PackedScene" uid="uid://1c7tnktvilhy" path="res://scenes/characters/character_body_2d.tscn" id="1_w8sgg"]
 [ext_resource type="PackedScene" uid="uid://ci8vulcowvcil" path="res://scenes/objects/space_station.tscn" id="3_2i5vy"]
+[ext_resource type="PackedScene" uid="uid://00dpb8boqu0l" path="res://scenes/mechanics/asteroid_creator.tscn" id="4_0jy0i"]
+[ext_resource type="PackedScene" uid="uid://cidspp4uwhfjk" path="res://scenes/characters/asteroid.tscn" id="4_3lnew"]
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_rgs4n")
 
 [node name="PlayerCharacter" parent="." instance=ExtResource("1_w8sgg")]
-position = Vector2(480, 439)
+position = Vector2(616, 439)
 
 [node name="SpaceStation" parent="." instance=ExtResource("3_2i5vy")]
-position = Vector2(116, -136)
-scale = Vector2(13.0698, 6.52718)
+position = Vector2(-148, -110)
+rotation = -0.29147
+scale = Vector2(6, 6)
 
 [node name="Projectiles" type="Node2D" parent="."]
 
+[node name="AsteroidCreator" parent="." instance=ExtResource("4_0jy0i")]
+
+[node name="Asteroid" parent="." instance=ExtResource("4_3lnew")]
+position = Vector2(1189, 222)
+scale = Vector2(1.03168, 1)
+
 [connection signal="shoot_laser" from="PlayerCharacter" to="." method="_on_player_character_shoot_laser"]
 [connection signal="shoot_rocket" from="PlayerCharacter" to="." method="_on_player_character_shoot_rocket"]
-[connection signal="player_entered_area" from="SpaceStation" to="." method="_on_space_station_player_entered_area"]

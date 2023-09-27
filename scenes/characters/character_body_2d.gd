@@ -31,7 +31,6 @@ func _process(_delta):
 
 
 
-
 func _on_timer_timeout():
 	can_laser = true
 	can_rocket = true

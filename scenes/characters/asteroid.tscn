@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cidspp4uwhfjk"]
+[gd_scene load_steps=5 format=3 uid="uid://cidspp4uwhfjk"]
 
 [ext_resource type="Script" path="res://scenes/characters/asteroid.gd" id="1_e642x"]
 [ext_resource type="Texture2D" uid="uid://hrd5vo23s7ml" path="res://art/Space Shooter Redux/PNG/Meteors/meteorBrown_big1.png" id="1_v1vp5"]
@@ -6,7 +6,11 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_nujt2"]
 radius = 33.3766
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_8lexa"]
+
 [node name="Asteroid" type="CharacterBody2D"]
+collision_layer = 16
+collision_mask = 33
 script = ExtResource("1_e642x")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -14,3 +18,13 @@ texture = ExtResource("1_v1vp5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_nujt2")
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(4.08, 4.12)
+collision_layer = 16
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_8lexa")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

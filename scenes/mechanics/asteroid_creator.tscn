@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://00dpb8boqu0l"]
+
+[ext_resource type="Script" path="res://AsteroidCreator.gd" id="1_6do8i"]
+
+[node name="AsteroidCreator" type="Node2D"]
+script = ExtResource("1_6do8i")
+
+[node name="MarkerPoints" type="Node2D" parent="."]
+
+[node name="Marker2D" type="Marker2D" parent="MarkerPoints"]
+position = Vector2(1322, 496)
+
+[node name="Marker2D2" type="Marker2D" parent="MarkerPoints"]
+position = Vector2(1323, 364)
+
+[node name="Marker2D3" type="Marker2D" parent="MarkerPoints"]
+position = Vector2(1320, 221)
+
+[node name="CreationTimer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="CreationTimer" to="." method="_on_creation_timer_timeout"]
