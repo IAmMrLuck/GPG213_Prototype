@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://gib6cx5752bt"]
+
+[ext_resource type="Texture2D" uid="uid://dmy3kv7o2xo14" path="res://art/Space Shooter Extension/PNG/Sprites/Missiles/spaceMissiles_001.png" id="1_b6rvm"]
+[ext_resource type="Script" path="res://scenes/weapons/rocket_level_one.gd" id="1_veh67"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4qufg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ru3ij"]
+radius = 11.4018
+
+[node name="RocketLevelOne" type="RigidBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_4qufg")
+gravity_scale = 0.0
+script = ExtResource("1_veh67")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 6)
+texture = ExtResource("1_b6rvm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ru3ij")
