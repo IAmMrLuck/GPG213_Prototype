@@ -1,0 +1,11 @@
+res://scenes/characters/asteroid.tscn::cfa89343be5c0e5a4fb74790bf4a2aac::1695904887::res://.godot/exported/133200997/export-9757799ad4cc4b2812bcd2b3bfa55420-asteroid.scn
+res://scenes/characters/character_body_2d.tscn::07325670bd87ff8381221b31afac6825::1695904887::res://.godot/exported/133200997/export-272fd0ffb8eb93e712a49c5b9d2489fa-character_body_2d.scn
+res://scenes/characters/enemy.tscn::13dfbdc0e291432531683f80707315db::1695903047::res://.godot/exported/133200997/export-7fd3637d6e00cc2d4a3a7fd9f1298604-enemy.scn
+res://scenes/levels/game_over.tscn::a2fb99e7fde1dd91aefcc42ff87e7d9f::1695902453::res://.godot/exported/133200997/export-8966130b107f1e0327d73737db4b4772-game_over.scn
+res://scenes/levels/level.tscn::5b6ca1bfd5a1bf23428d84cf032a7bb0::1695905169::res://.godot/exported/133200997/export-d2f84246acaf0198009608664807e4e4-level.scn
+res://scenes/mechanics/asteroid_creator.tscn::0885507642ae2ff4bf024cd68a2b4a92::1695900288::res://.godot/exported/133200997/export-d3db086d31f1892bf26f7d96ef509ea2-asteroid_creator.scn
+res://scenes/mechanics/area_2d.tscn::24c22a586672d4bf2dd8568fdf933c26::1695904218::res://.godot/exported/133200997/export-db9a8dd28604846ba0aa0e780f4287ec-area_2d.scn
+res://scenes/mechanics/Upgrade.tscn::f895889d922a9e5fb24c589f64642f34::1695904887::res://.godot/exported/133200997/export-84f3de832de7d2ae0b6bab1b00f32806-Upgrade.scn
+res://scenes/objects/space_station.tscn::75c82039b54083a758f7ebe87bca9314::1695904887::res://.godot/exported/133200997/export-f31d2ce520498e7a6dc87547b935523c-space_station.scn
+res://scenes/weapons/laser_level_one.tscn::56f5dad9503e099c0cb6090fd98a0880::1695904887::res://.godot/exported/133200997/export-4f63d59beac57fc70e4fe4a312c8b6dc-laser_level_one.scn
+res://scenes/weapons/rocket_level_one.tscn::5400caefaeead0a5432acce002f3e1ed::1695771736::res://.godot/exported/133200997/export-e3031c0426a3863445fcb0fafd90ded0-rocket_level_one.scn
