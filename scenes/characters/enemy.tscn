@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://c27suxil0oypw"]
+
+[ext_resource type="Script" path="res://scenes/characters/Enemy.gd" id="1_eqm3y"]
+[ext_resource type="Texture2D" uid="uid://cpahyh16dsy4t" path="res://art/Space Shooter Redux/PNG/Enemies/enemyBlack1.png" id="2_q53tr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ogdiu"]
+size = Vector2(25, 33.945)
+
+[node name="Enemy" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_eqm3y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_q53tr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.38419e-06, 1)
+scale = Vector2(4.4, 4.36)
+shape = SubResource("RectangleShape2D_ogdiu")

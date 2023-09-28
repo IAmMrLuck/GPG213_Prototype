@@ -19,10 +19,10 @@ func _on_creation_timer_timeout():
 	can_asteroid = true
 	create_asteroid()
 
-func destroy_asteroid(asteroid_instance: CharacterBody2D):
-	# Check if the asteroid is in the dictionary
-	if asteroids.has(asteroid_instance):
-		# Call queue_free() to destroy the asteroid
-		asteroid_instance.queue_free()
-		# Remove the reference from the dictionary
-		asteroids.erase(asteroid_instance)
+#func destroy_asteroid(asteroid_instance: CharacterBody2D):
+#	# Check if the asteroid is in the dictionary
+#	if asteroids.has(asteroid_instance):
+#		# Call queue_free() to destroy the asteroid
+#		asteroid_instance.queue_free()
+#		# Remove the reference from the dictionary
+#		asteroids.erase(asteroid_instance)

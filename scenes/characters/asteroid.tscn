@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://hrd5vo23s7ml" path="res://art/Space Shooter Redux/PNG/Meteors/meteorBrown_big1.png" id="1_v1vp5"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_nujt2"]
-radius = 33.3766
+radius = 54.1479
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8lexa"]
 
@@ -12,6 +12,7 @@ radius = 33.3766
 collision_layer = 16
 collision_mask = 33
 script = ExtResource("1_e642x")
+asteroid_speed = 600
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_v1vp5")

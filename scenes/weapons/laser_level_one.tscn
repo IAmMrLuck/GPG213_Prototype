@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cnw44gl3b85cv"]
 
-[ext_resource type="Script" path="res://LaserLevelOne.gd" id="1_vkr7q"]
+[ext_resource type="Script" path="res://scenes/weapons/LaserLevelOne.gd" id="1_qorx3"]
 [ext_resource type="Texture2D" uid="uid://buoigew6uca2p" path="res://art/Space Shooter Redux/PNG/Lasers/laserBlue01.png" id="2_cuc5s"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hna6m"]
@@ -8,8 +8,8 @@ radius = 5.0
 
 [node name="LaserLevelOne" type="Area2D"]
 collision_layer = 2
-collision_mask = 16
-script = ExtResource("1_vkr7q")
+collision_mask = 20
+script = ExtResource("1_qorx3")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 11)
@@ -17,3 +17,10 @@ texture = ExtResource("2_cuc5s")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_hna6m")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0, 46)
+scale = Vector2(0.6, 0.2)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

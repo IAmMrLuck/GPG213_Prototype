@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cmrubjb67kbap"]
+[gd_scene load_steps=3 format=3 uid="uid://cmrubjb67kbap"]
 
 [ext_resource type="Texture2D" uid="uid://celwq8fglrxfp" path="res://art/sonisgo.PNG" id="1_17cet"]
+[ext_resource type="Script" path="res://scenes/levels/game_over.gd" id="1_os8bj"]
 
 [node name="GameOver" type="Node2D"]
+script = ExtResource("1_os8bj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(567, 294)

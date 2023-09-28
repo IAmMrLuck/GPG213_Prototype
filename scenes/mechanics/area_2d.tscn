@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctjyktq0312xp"]
+
+[ext_resource type="Texture2D" uid="uid://dgwcg0fi0j2jn" path="res://art/Space Shooter Redux/PNG/Power-ups/star_gold.png" id="1_oahhs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3krdf"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_oahhs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_3krdf")
