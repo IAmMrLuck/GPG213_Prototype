@@ -1,11 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695900288
-Enemy.gd::GDScript::-1::1695900280::0::1::::<>CharacterBody2D<>::
+::res://::1695935764
+export_presets.cfg::TextFile::-1::1695905579::0::1::::<><>::
 icon.svg::CompressedTexture2D::2780779437310120565::1695628752::1695628759::1::::<><>::
-LaserLevelOne.gd::GDScript::-1::1695893343::0::1::::<>Area2D<>::
 README.md::TextFile::-1::1695779040::0::1::::<><>::
-::res://art/::1695882341
-sonisgo.PNG::CompressedTexture2D::5077670985058913741::1695882341::1695882341::1::::<><>::
+Tutorial.gd::GDScript::-1::1695934244::0::1::::<>Node2D<>::
+::res://art/::1695935764
 ::res://art/Space Shooter Extension/::1695628877
 License.txt::TextFile::-1::1695628861::0::1::::<><>::
 Preview.png::CompressedTexture2D::7743378606680820637::1695628862::1695628877::1::::<><>::
@@ -910,26 +909,42 @@ playerLife3_red.png::CompressedTexture2D::4287816038634704376::1695628861::16956
 sheet.png::CompressedTexture2D::4515884477106698577::1695628861::1695628878::1::::<><>::
 ::res://art/Space Shooter Redux/Vector/::1695628879
 spaceShooter_vector.svg::CompressedTexture2D::5024311977904957073::1695628861::1695628879::1::::<><>::
-::res://scenes/::1695900288
-AsteroidCreator.gd::GDScript::-1::1695891485::0::1::::<>Node2D<>::
-::res://scenes/characters/::1695900281
-asteroid.gd::GDScript::-1::1695893881::0::1::::<>CharacterBody2D<>::
-asteroid.tscn::PackedScene::5341665776118979624::1695899325::0::1::::<><>::res://scenes/characters/asteroid.gd<>uid://hrd5vo23s7ml::::res://art/Space Shooter Redux/PNG/Meteors/meteorBrown_big1.png
-character_body_2d.gd::GDScript::-1::1695893343::0::1::::<>CharacterBody2D<>::
-character_body_2d.tscn::PackedScene::1831016263092940962::1695899645::0::1::::<><>::res://scenes/characters/character_body_2d.gd<>uid://bpi7xlg28nb6g::::res://art/Space Shooter Redux/PNG/playerShip1_red.png
-Enemy.gd::GDScript::-1::1695899645::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::6735130076420148820::1695900281::0::1::::<><>::res://scenes/characters/Enemy.gd<>uid://cpahyh16dsy4t::::res://art/Space Shooter Redux/PNG/Enemies/enemyBlack1.png
-::res://scenes/levels/::1695899645
-game_over.tscn::PackedScene::5651418514217451907::1695882341::0::1::::<><>::uid://celwq8fglrxfp
-level.gd::GDScript::-1::1695893269::0::1::::<>Node2D<>::
-level.tscn::PackedScene::3120704613954665840::1695899645::0::1::::<><>::res://scenes/levels/level.gd<>uid://1c7tnktvilhy::::res://scenes/characters/character_body_2d.tscn<>uid://ci8vulcowvcil::::res://scenes/objects/space_station.tscn<>uid://00dpb8boqu0l::::res://scenes/mechanics/asteroid_creator.tscn<>uid://cidspp4uwhfjk::::res://scenes/characters/asteroid.tscn<>uid://c27suxil0oypw::::res://scenes/characters/enemy.tscn
+::res://art/tutorial/::1695935975
+image_q15Hcaj9_1695935921972_raw.jpg::CompressedTexture2D::1685247280095638638::1695935975::1695935976::1::::<><>::
+kisspng-computer-mouse-point-and-click-mouse-button-comput-left-mouse-button-5ab0edc9061290.7171470115215446490249.png::CompressedTexture2D::2988717342629548122::1695935308::1695935765::1::::<><>::
+Screenshot 2023-09-29 071058.png::CompressedTexture2D::3558665894114672122::1695935489::1695935765::1::::<><>::
+Screenshot 2023-09-29 071133.png::CompressedTexture2D::2959599890858449836::1695935500::1695935765::1::::<><>::
+Screenshot 2023-09-29 071318.png::CompressedTexture2D::6285732608745259183::1695935752::1695935765::1::::<><>::
+Screenshot 2023-09-29 071504.png::CompressedTexture2D::6461052818403811878::1695935752::1695935765::1::::<><>::
+Screenshot 2023-09-29 071530.png::CompressedTexture2D::7784024060322163737::1695935752::1695935765::1::::<><>::
+sonisgo.PNG::CompressedTexture2D::5077670985058913741::1695882341::1695935765::1::::<><>::
+WASD-Logo-Black.png::CompressedTexture2D::1975251661964933355::1695935098::1695935765::1::::<><>::
+::res://scenes/::1695900351
+AsteroidCreator.gd::GDScript::-1::1695900351::0::1::::<>Node2D<>::
+::res://scenes/characters/::1695935550
+asteroid.gd::GDScript::-1::1695902027::0::1::::<>CharacterBody2D<>::
+asteroid.tscn::PackedScene::5341665776118979624::1695935550::0::1::::<><>::res://scenes/characters/asteroid.gd<>uid://hrd5vo23s7ml::::res://art/Space Shooter Redux/PNG/Meteors/meteorBrown_big1.png
+character_body_2d.gd::GDScript::-1::1695934013::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::1831016263092940962::1695935550::0::1::::<><>::res://scenes/characters/character_body_2d.gd<>uid://bpi7xlg28nb6g::::res://art/Space Shooter Redux/PNG/playerShip1_red.png
+Enemy.gd::GDScript::-1::1695901031::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::6735130076420148820::1695903047::0::1::::<><>::res://scenes/characters/Enemy.gd<>uid://cpahyh16dsy4t
+::res://scenes/levels/::1695935764
+game_over.gd::GDScript::-1::1695901128::0::1::::<>Node2D<>::
+game_over.tscn::PackedScene::5651418514217451907::1695935764::0::1::::<><>::uid://celwq8fglrxfp::::res://art/tutorial/sonisgo.PNG<>res://scenes/levels/game_over.gd
+level.gd::GDScript::-1::1695902325::0::1::::<>Node2D<>::
+level.tscn::PackedScene::3120704613954665840::1695935550::0::1::::<><>::res://scenes/levels/level.gd<>uid://1c7tnktvilhy::::res://scenes/characters/character_body_2d.tscn<>uid://ci8vulcowvcil::::res://scenes/objects/space_station.tscn<>uid://00dpb8boqu0l::::res://scenes/mechanics/asteroid_creator.tscn<>uid://cidspp4uwhfjk::::res://scenes/characters/asteroid.tscn<>uid://bo37ee3k4ts06::::res://art/Space Shooter Redux/Backgrounds/darkPurple.png<>uid://rn7qrv2sxocp::::res://scenes/mechanics/Upgrade.tscn
 SpaceStation.gd::GDScript::-1::1695643505::0::1::::<>StaticBody2D<>::
-::res://scenes/mechanics/::1695900288
+tutorial.tscn::PackedScene::1247994286473762250::1695935764::0::1::::<><>::res://Tutorial.gd<>uid://3e3du4obvuc6::::res://art/tutorial/WASD-Logo-Black.png<>uid://bit00ddn7jx35::::res://art/tutorial/kisspng-computer-mouse-point-and-click-mouse-button-comput-left-mouse-button-5ab0edc9061290.7171470115215446490249.png<>uid://bqx3ybxvh4iqc::::res://art/tutorial/Screenshot 2023-09-29 071058.png<>uid://bifwgbsh35vyy::::res://art/tutorial/Screenshot 2023-09-29 071133.png
+::res://scenes/mechanics/::1695935550
+area_2d.tscn::PackedScene::6126484885895679801::1695904218::0::1::::<><>::uid://dgwcg0fi0j2jn
 asteroid_creator.tscn::PackedScene::1806539576255869677::1695900288::0::1::::<><>::res://scenes/AsteroidCreator.gd
-::res://scenes/objects/::1695899645
-space_station.gd::GDScript::-1::1695882341::0::1::::<>StaticBody2D<>::
-space_station.tscn::PackedScene::5403787936613411179::1695899645::0::1::::<><>::res://scenes/objects/space_station.gd<>uid://bj4j03aususki::::res://art/Space Shooter Extension/PNG/Sprites/Station/spaceStation_021.png
-::res://scenes/weapons/::1695899308
-laser_level_one.tscn::PackedScene::5732525559491217065::1695899308::0::1::::<><>::res://LaserLevelOne.gd<>uid://buoigew6uca2p::::res://art/Space Shooter Redux/PNG/Lasers/laserBlue01.png
+Upgrade.gd::GDScript::-1::1695934013::0::1::::<>Area2D<>::
+Upgrade.tscn::PackedScene::1222019695709908739::1695935550::0::1::::<><>::uid://dgwcg0fi0j2jn::::res://art/Space Shooter Redux/PNG/Power-ups/star_gold.png<>res://scenes/mechanics/Upgrade.gd
+::res://scenes/objects/::1695935550
+space_station.gd::GDScript::-1::1695900351::0::1::::<>StaticBody2D<>::
+space_station.tscn::PackedScene::5403787936613411179::1695935550::0::1::::<><>::res://scenes/objects/space_station.gd<>uid://bj4j03aususki::::res://art/Space Shooter Extension/PNG/Sprites/Station/spaceStation_021.png
+::res://scenes/weapons/::1695935550
+LaserLevelOne.gd::GDScript::-1::1695904739::0::1::::<>Area2D<>::
+laser_level_one.tscn::PackedScene::5732525559491217065::1695935550::0::1::::<><>::res://scenes/weapons/LaserLevelOne.gd<>uid://buoigew6uca2p::::res://art/Space Shooter Redux/PNG/Lasers/laserBlue01.png
 rocket_level_one.gd::GDScript::-1::1695725155::0::1::::<>RigidBody2D<>::
 rocket_level_one.tscn::PackedScene::437764302448728465::1695771736::0::1::::<><>::uid://dmy3kv7o2xo14

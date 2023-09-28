@@ -1,0 +1,59 @@
+[gd_scene load_steps=10 format=3 uid="uid://r1sjv2g0p4y5"]
+
+[ext_resource type="Script" path="res://Tutorial.gd" id="1_sr102"]
+[ext_resource type="Texture2D" uid="uid://yal1nu8qnbko" path="res://art/tutorial/image_q15Hcaj9_1695935921972_raw.jpg" id="2_q1win"]
+[ext_resource type="Texture2D" uid="uid://3e3du4obvuc6" path="res://art/tutorial/WASD-Logo-Black.png" id="2_usd3g"]
+[ext_resource type="Texture2D" uid="uid://bit00ddn7jx35" path="res://art/tutorial/kisspng-computer-mouse-point-and-click-mouse-button-comput-left-mouse-button-5ab0edc9061290.7171470115215446490249.png" id="3_kt5fu"]
+[ext_resource type="Texture2D" uid="uid://bqx3ybxvh4iqc" path="res://art/tutorial/Screenshot 2023-09-29 071058.png" id="4_2btaw"]
+[ext_resource type="Texture2D" uid="uid://bifwgbsh35vyy" path="res://art/tutorial/Screenshot 2023-09-29 071133.png" id="5_687ep"]
+[ext_resource type="Texture2D" uid="uid://cvs4dk7mcfs6b" path="res://art/tutorial/Screenshot 2023-09-29 071318.png" id="7_tyfi1"]
+[ext_resource type="Texture2D" uid="uid://cyb1ui6ecpefu" path="res://art/tutorial/Screenshot 2023-09-29 071504.png" id="8_3rvfk"]
+[ext_resource type="Texture2D" uid="uid://di5v0ekgfi6y4" path="res://art/tutorial/Screenshot 2023-09-29 071530.png" id="9_lt62x"]
+
+[node name="Tutorial" type="Node2D"]
+script = ExtResource("1_sr102")
+
+[node name="ImageQ15Hcaj91695935921972Raw" type="Sprite2D" parent="."]
+position = Vector2(945.5, 539)
+scale = Vector2(3.13906, 1.76875)
+texture = ExtResource("2_q1win")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 798.0
+offset_top = 930.0
+offset_right = 894.0
+offset_bottom = 961.0
+scale = Vector2(2.32538, 3.20399)
+text = "Start Game"
+
+[node name="Wasd-logo-black" type="Sprite2D" parent="."]
+position = Vector2(284, 851)
+scale = Vector2(0.259799, 0.238216)
+texture = ExtResource("2_usd3g")
+
+[node name="Kisspng-computer-mouse-point-and-click-mouse-button-comput-left-mouse-button-5Ab0Edc9061290_7171470115215446490249" type="Sprite2D" parent="."]
+position = Vector2(240, 290)
+scale = Vector2(1.09131, 0.8275)
+texture = ExtResource("3_kt5fu")
+
+[node name="Screenshot2023-09-29071058" type="Sprite2D" parent="."]
+position = Vector2(395, 64)
+texture = ExtResource("4_2btaw")
+
+[node name="Screenshot2023-09-29071133" type="Sprite2D" parent="."]
+position = Vector2(304, 1024)
+texture = ExtResource("5_687ep")
+
+[node name="Screenshot2023-09-29071318" type="Sprite2D" parent="."]
+position = Vector2(1253, 456)
+texture = ExtResource("7_tyfi1")
+
+[node name="Screenshot2023-09-29071504" type="Sprite2D" parent="."]
+position = Vector2(1253, 560)
+texture = ExtResource("8_3rvfk")
+
+[node name="Screenshot2023-09-29071530" type="Sprite2D" parent="."]
+position = Vector2(1261, 674)
+texture = ExtResource("9_lt62x")
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]

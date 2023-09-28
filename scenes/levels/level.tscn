@@ -15,17 +15,17 @@ script = ExtResource("1_rgs4n")
 position = Vector2(616, 439)
 
 [node name="SpaceStation" parent="." instance=ExtResource("3_2i5vy")]
-position = Vector2(-176, 14.9999)
+position = Vector2(-188, -108)
 rotation = -0.29147
 scale = Vector2(8, 8)
 
 [node name="Projectiles" type="Node2D" parent="."]
 
 [node name="AsteroidCreator" parent="." instance=ExtResource("4_0jy0i")]
-position = Vector2(424, 42)
+position = Vector2(422, -2)
 
 [node name="Asteroid" parent="." instance=ExtResource("4_3lnew")]
-position = Vector2(1189, 222)
+position = Vector2(1747, 424)
 scale = Vector2(1.03168, 1)
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]

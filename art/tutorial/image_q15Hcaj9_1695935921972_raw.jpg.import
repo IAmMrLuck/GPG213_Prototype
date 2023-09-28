@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://celwq8fglrxfp"
-path="res://.godot/imported/sonisgo.PNG-b0bfa90171446e953f8a33600bb0726a.ctex"
+uid="uid://yal1nu8qnbko"
+path="res://.godot/imported/image_q15Hcaj9_1695935921972_raw.jpg-5dd1626ddcba272ff11cae8d4144bec6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/sonisgo.PNG"
-dest_files=["res://.godot/imported/sonisgo.PNG-b0bfa90171446e953f8a33600bb0726a.ctex"]
+source_file="res://art/tutorial/image_q15Hcaj9_1695935921972_raw.jpg"
+dest_files=["res://.godot/imported/image_q15Hcaj9_1695935921972_raw.jpg-5dd1626ddcba272ff11cae8d4144bec6.ctex"]
 
 [params]
 

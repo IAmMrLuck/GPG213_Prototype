@@ -8,6 +8,9 @@ var can_rocket: bool = true
 signal shoot_laser(pos, dir)
 signal shoot_rocket(pos, dir)
 
+#func _ready():
+#	$"../HSlider".connect("value_changed", _on_slider_value_changed(value), movement_speed)
+
 func _physics_process(_delta):
 	
 	var direction = Input.get_vector("left", "right", "up", "down")
@@ -36,3 +39,6 @@ func _physics_process(_delta):
 func _on_timer_timeout():
 	can_laser = true
 	can_rocket = true
+
+#func _on_slider_value_changed(value):
+#	movement_speed = value
