@@ -1,16 +1,25 @@
+<<<<<<< Updated upstream
+=======
+CollisionShape2D
+CharacterBody2D
+Sprite2D
+Node2D
+TextEdit
+>>>>>>> Stashed changes
 Button
 Sprite2D
 TextEdit
 HSlider
+<<<<<<< Updated upstream
 CollisionShape2D
+=======
+>>>>>>> Stashed changes
 Area2D
 ParallaxLayer
 ParallaxBackground
-CharacterBody2D
 Marker2D
 VisibleOnScreenNotifier2D
 Timer
-Node2D
 Camera2D
 RigidBody2D
 CollisionPolygon2D

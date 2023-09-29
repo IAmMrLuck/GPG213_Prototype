@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmj3v1db2lm3"]
+
+[ext_resource type="Texture2D" uid="uid://celwq8fglrxfp" path="res://art/tutorial/sonisgo.PNG" id="1_v0ar5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nm05i"]
+size = Vector2(20.7803, 20)
+
+[node name="Enemy2" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_v0ar5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.499998, 0)
+scale = Vector2(12.56, 12.56)
+shape = SubResource("RectangleShape2D_nm05i")
